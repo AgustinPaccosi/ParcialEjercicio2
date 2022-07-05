@@ -29,11 +29,11 @@ namespace ParcialEjercicio2
                 {
                     if (verificatriangulo(a, b, c))
                     {
-                        Console.WriteLine("Los valores Ingresados No generan un triangulo.");
+                        Console.WriteLine("Los valores Ingresados no corresponden son: negativos o ceros");
                     }
                     else
                     {
-                        Console.WriteLine("Los valores Ingresados no corresponden son: negativos o ceros ");
+                        Console.WriteLine("Los valores no Corresponden a un triangulo ");
                     }
                 }
                 Console.ReadLine();
