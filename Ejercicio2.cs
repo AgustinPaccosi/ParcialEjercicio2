@@ -78,7 +78,7 @@ namespace ParcialEjercicio2
             }
             else
             {
-                if (a * a > b * b + c * c)
+                if (a * a < b * b + c * c)
                 {
                     var msj = "El triangulo es acutangulo";
                     return msj;
